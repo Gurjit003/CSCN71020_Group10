@@ -3,6 +3,7 @@
 
 #include "main.h"
 #include "triangleSolver.h"
+#include "RectangleSolver.h"
 
 int side = 0;
 
@@ -26,6 +27,14 @@ int main() {
 		case 0:
 			continueProgram = false;
 			break;
+		case 2:
+			printf_s("Rectangle selected.\n");
+			int rectangleCoordinates[8] = { 0,0,0,0,0,0,0,0 };
+			int* rectangleCoordinatesPtr = getRectangleCoordinates(rectangleCoordinates);
+			char* resultForRectangle = analyzeRectangle(rectangleCoordinates[0], rectangleCoordinates[1], rectangleCoordinates[2], rectangleCoordinates[3], rectangleCoordinates[4], rectangleCoordinates[5], rectangleCoordinates[6], rectangleCoordinates[7]);
+			printf("%s\n", resultForRectangle);
+			break;
+
 		default:
 			printf_s("Invalid value entered.\n");
 			break;
@@ -44,7 +53,9 @@ void printWelcome() {
 
 int printShapeMenu() {
 	printf_s("1. Triangle\n");
+	printf("2. Rectangle\n");
 	printf_s("0. Exit\n");
+	
 
 	int shapeChoice;
 
@@ -61,4 +72,17 @@ int* getTriangleSides(int* triangleSides) {
 		scanf_s("%d", &triangleSides[i]);
 	}
 	return triangleSides;
+}
+
+int* getRectangleCoordinates(int* RectangleCoordinates)
+{
+	printf_s("Enter the 8 coordinates of the rectangle.\n ");
+	printf("Write x y coordinates divided by enter.\n");
+	for (int i = 0; i < 4; i++)
+	{
+		printf("\nx%d = ", i + 1);
+		scanf_s("%d", &RectangleCoordinates[i]);
+		printf("y%d = ", i + 1);
+		scanf_s("%d", &RectangleCoordinates[i + 4]);
+	}
 }
