@@ -21,6 +21,9 @@
     <ClCompile Include="triangleSolver.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="angleSolver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="RectangleSolver.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -30,6 +33,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="angleSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RectangleSolver.h">
