@@ -3,6 +3,7 @@
 
 #include "main.h"
 #include "triangleSolver.h"
+#include "angleSolver.h"
 #include "RectangleSolver.h"
 
 int side = 0;
@@ -16,17 +17,17 @@ int main() {
 
 		switch (shapeChoice)
 		{
+		case 0:
+			continueProgram = false;
+			break;
 		case 1:
 			printf_s("Triangle selected.\n");
 			int triangleSides[3] = { 0, 0, 0 };
 			int* triangleSidesPtr = getTriangleSides(triangleSides);
 			//printf_s("! %d\n", triangleSidesPtr[0]);
 			char* result = analyzeTriangle(triangleSidesPtr[0], triangleSidesPtr[1], triangleSidesPtr[2]);
-			// CS
-			printf_s("%s\n", result);
-			break;
-		case 0:
-			continueProgram = false;
+			printf_s("%s\n\n", result);
+			analyzeAngles(triangleSidesPtr[0], triangleSidesPtr[1], triangleSidesPtr[2]);
 			break;
 		case 2:
 			printf_s("Rectangle selected.\n");
