@@ -22,6 +22,7 @@ int main() {
 			int* triangleSidesPtr = getTriangleSides(triangleSides);
 			//printf_s("! %d\n", triangleSidesPtr[0]);
 			char* result = analyzeTriangle(triangleSidesPtr[0], triangleSidesPtr[1], triangleSidesPtr[2]);
+			// CS
 			printf_s("%s\n", result);
 			break;
 		case 0:
