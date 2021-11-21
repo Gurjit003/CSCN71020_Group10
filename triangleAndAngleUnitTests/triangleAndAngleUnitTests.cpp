@@ -9,7 +9,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 namespace triangleAndAngleUnitTests
 {
 	//Unit tests for triangles 
-
+	
 	TEST_CLASS(triangleUnitTests)
 	{
 	public:
