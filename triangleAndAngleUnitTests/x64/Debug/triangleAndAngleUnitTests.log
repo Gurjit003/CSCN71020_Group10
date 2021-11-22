@@ -1,3 +1,1 @@
-﻿  triangleAndAngleUnitTests.cpp
-     Creating library C:\Users\gurji\source\repos\CSCN71020_Group10\x64\Debug\triangleAndAngleUnitTests.lib and object C:\Users\gurji\source\repos\CSCN71020_Group10\x64\Debug\triangleAndAngleUnitTests.exp
-  triangleAndAngleUnitTests.vcxproj -> C:\Users\gurji\source\repos\CSCN71020_Group10\x64\Debug\triangleAndAngleUnitTests.dll
+﻿LINK : fatal error LNK1104: cannot open file 'main.obj'

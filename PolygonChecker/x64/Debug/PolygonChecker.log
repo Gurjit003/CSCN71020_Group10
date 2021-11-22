@@ -1,7 +1,1 @@
-﻿  angleSolver.c
-C:\Users\gurji\source\repos\CSCN71020_Group10\PolygonChecker\angleSolver.c(46,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\gurji\source\repos\CSCN71020_Group10\PolygonChecker\angleSolver.c(47,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\gurji\source\repos\CSCN71020_Group10\PolygonChecker\angleSolver.c(49,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\gurji\source\repos\CSCN71020_Group10\PolygonChecker\angleSolver.c(50,22): warning C4305: '*=': truncation from 'double' to 'float'
-C:\Users\gurji\source\repos\CSCN71020_Group10\PolygonChecker\angleSolver.c(38): warning C4172: returning address of local variable or temporary: result
-  PolygonChecker.vcxproj -> C:\Users\gurji\source\repos\CSCN71020_Group10\x64\Debug\PolygonChecker.exe
+﻿  PolygonChecker.vcxproj -> C:\Users\daveo_xxpkcgs\OneDrive\Desktop\Software implementation\cource final group project\x64\Debug\PolygonChecker.exe

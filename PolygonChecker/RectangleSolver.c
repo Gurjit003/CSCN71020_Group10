@@ -12,7 +12,6 @@ char* analyzeRectangle(int x1, int x2, int x3, int x4, int y1, int y2, int y3, i
 		if ((y2 - y1 == x4 - x1) && (y2 - y1 == y3 - y4) && (y2 - y1 == x3 - x2))
 		{
 			conclusion = "your rectangle is a square. Try again!\n";
-		
 		}
 		else
 		{

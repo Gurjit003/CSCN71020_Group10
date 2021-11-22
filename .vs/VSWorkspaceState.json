@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\rectangletest"
   ],
-  "SelectedNode": "\\PolygonChecker.sln",
+  "SelectedNode": "\\rectangletest\\rectangletest.cpp",
   "PreviewInSolutionExplorer": false
 }
